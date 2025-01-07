@@ -1,0 +1,62 @@
+.education{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    
+
+}
+
+.about{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    
+}
+
+.about>:nth-child(1){
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: var(--black);
+   
+}
+.about>:nth-child(2){
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: var(--orange);
+    font-weight: bold;
+}
+
+.about>:nth-child(3){
+    font-size: 20px;
+    color: var(--gray);
+    margin-top: 1rem ;
+
+}
+.e-button{
+    width: 8rem;
+    height: 2rem;
+    margin-top: 4rem;
+}
+
+.degrees{
+    position: relative;
+}
+
+.degrees>*{
+    position: absolute;
+}
+
+/* colour blur background */
+
+.e-blur1{
+    left: 35rem;
+    top: -5rem;
+}
+
+.e-blur2{
+    left: -60rem;
+    top: 5rem;
+}
