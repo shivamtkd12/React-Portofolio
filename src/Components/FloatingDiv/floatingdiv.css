@@ -1,30 +1,28 @@
-.floatingdiv{
-    justify-content: space-around;
-    display: flex;
-    background: rgb(255, 255, 255);
-    box-shadow: var(boxShadow);
-    border-radius: 15px;
-    align-items: center;
-    padding: 2px 20px 2px 2px;
-    height: 5rem;
-    
+.floatingDiv {
+  justify-content: space-around;
+  display: flex;
+  background: rgb(255, 255, 255);
+  box-shadow: var(boxShadow);
+  border-radius: 15px;
+  align-items: center;
+  padding: 2px 20px 2px 2px;
+  height: 5rem;
 }
 
-.floatingdiv>img{
-    transform: scale(0.5);
+.floatingDiv > img {
+  transform: scale(0.5);
 }
 
-.floatingdiv>span{
-    font-family: sans-serif;
-    font-size: 16px;
+.floatingDiv > span {
+  font-family: sans-serif;
+  font-size: 16px;
 }
 
-.floatingdiv1{
-    margin-left: 20rem;
-    margin-top: -2rem; 
-    
+.floatingDiv1 {
+  margin-left: 20rem;
+  margin-top: -2rem;
 }
-.floatingdiv2{
-    margin-left: -4.3rem;
-    margin-top: 21.3rem;
+.floatingDiv2 {
+  margin-left: -4.3rem;
+  margin-top: 21.3rem;
 }
