@@ -1,7 +1,7 @@
 import "./skill.css";
 import Language from "../../img/lang.png";
 import Techno from "../../img/techno.png";
-import Soft from "../../img/softSkill.png";
+import Soft from "../../img/softskill.png";
 
 import { themeContext } from "../../context";
 import { useContext } from "react";
@@ -11,16 +11,16 @@ const Skill = () => {
   const darkMode = theme.state.darkMode;
   return (
     <div className="skill">
-      <div className="achievement" style={{ color: darkMode ? "white" : "" }}>
+      <div className="achievement" style={{ color: darkMode ? "white" : "", }}>
         <div className="circle">
           <img src={Language} />
         </div>
 
         <p style={{ fontSize: "30px" }}>Language</p>
-        <span> Java </span>
-        <span>Java Script </span>
-        <span> HTML,CSS </span>
-        <span>Python </span>
+        <span> Java  </span>
+        <span>Java Script  </span>
+        <span> HTML,CSS  </span>
+        <span>Python  </span>
       </div>
 
       <div className="achievement">
@@ -60,7 +60,7 @@ const Skill = () => {
         </div>
         <p style={{ fontSize: "30px" }}>Soft Skills</p>
         <span>Team Management </span>
-        <span>Communication </span>
+        <span>Good Communication </span>
         <span>Multi-tasking </span>
         <span>Leadership </span>
       </div>

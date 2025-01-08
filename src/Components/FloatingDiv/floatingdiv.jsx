@@ -1,5 +1,5 @@
 import React from "react";
-import "./floatingDiv.css";
+import "./floatingdiv.css";
 
 const FloatingDiv = ({ image, txt1, txt2 }) => {
   return (

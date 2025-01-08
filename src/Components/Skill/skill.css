@@ -1,21 +1,21 @@
-.skill{
+.skill {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15rem;
-    height: 50vh;
-    margin-bottom: 15rem ;
+    gap: 12rem;
+    height: 70vh;
+    margin-top: -8rem;
+    margin-bottom: 10rem;
+  }
   
-}
-
-.achivement{
+  .achievement {
     display: flex;
-    flex-direction: column;
-    /* gap: 2rem; */
+    flex-direction: column; /* Ensures spans are arranged in a column */
     align-items: center;
-}
-
-.circle{
+    justify-content: center;
+  }
+  
+  .circle {
     font-size: 25px;
     width: 10rem;
     height: 10rem;
@@ -26,9 +26,14 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-    
-.circle img{
-    transform: scale(.2);
-}
+  }
+  
+  .circle img {
+    transform: scale(0.2);
+  }
+  
+  /* Add this rule to ensure the spans are stacked vertically */
+  .achievement span {
+    margin: 0.5rem 0; /* Optional: Adds spacing between span elements */
+  }
+  
